@@ -1,0 +1,69 @@
+Balises structurantes
+
+main => contenu principal d'une page, 1 seul par page, remplace div id="main"|"wrapper"
+
+section => portion ou section générique d'un document, regoupement thématique de contenu (h1)
+
+article => plus précis que section, type spécifique de section (article dans section)
+
+header => en-tête de page ou de section.
+
+nav => indique liste de liens.
+
+footer => bas de page (copyright, mentions légales, etc...).
+
+aside => pour contenu venant en complément d'information. Peut être utilisé en affichage de contenu annexe.
+
+Balises bloc
+
+figure => avec figcaption, associer une légende à un média, associé à balise <code>img, audio, video, code...<code/>
+
+blockquote => permet de faire des citations. Peut contenir d'autres blocs (paragraphe).
+
+q => citations sur une ligne.
+
+hr => indique un changement thématique s'utilise entre 2 sections.
+
+Balises de liste
+
+ul => liste non ordonnée, li se placent à l'intérieur.
+
+ol => liste ordonnée.
+
+dl => liste de définitions s'utilise comme suit : <dl><dt><dd></dt></dl>.
+
+Les balises inline
+
+strong => marque des éléments qui ont une forte importance.
+
+b => pour attirer l'attention sur un élément sans sens.
+
+em => représente une emphase.
+
+i => indique une portion de texte à tonalité différente à celle du texte.
+
+cite => balise le nom d'une oeuvre, d'une personne, s'utilise avec blockquote.
+
+del => indique qu'un élément a été supprimé.
+
+s => représente une portion de texte qui n'est plus à jour.
+
+ins => représente un ajout au document.
+
+small => indique un élément moins important.
+
+var => indique une variable.
+
+code => indique qu'une portion de texte est du code
+
+kbd => représente une entrée utilisateur.
+
+mark => sert à attirer l'attention sur une portion de texte.
+
+dfn => balise un terme qui va être défini.
+
+u => sert à mettre en évidences les fautes d'orthographe ou de grammaire.
+
+Les balises de formulaire (de type bloc)
+
+form => permet de déclarer un formulaire
