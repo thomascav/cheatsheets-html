@@ -3,31 +3,40 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CheatSheets HTML/CSS</title>
+    <title>CheatSheets HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/html.css" media="screen" title="no title" charset="utf-8">
+    <link rel="shortcut icon" href="favicon.ico">
 </head>
 
 <body>
+    <a href="#top" class="top">Haut de page</a>
     <div class="container">
+        <!--contient le contenu de body-->
         <header>
-            <h1>Différentes balises de HTML5 et propriétés CSS3 -CheatSheets-</h1><!--main title-->
+            <h1><a id="top">Différentes balises de HTML5 -CheatSheets-</a></h1>
+            <img id="logo" src="html.png" alt="logohtml5" />
+            <!--main title-->
         </header>
         <!--header du body-->
+
         <div class="row">
-            <nav col-md-12>
-                    <ul>
-                        <li><a href="#block">Balises block</a></li>
-                        <li><a href="#structurantes">Balises structurantes</a></li>
-                        <li><a href="#liste">Balises liste</a></li>
-                        <li><a href="#inline">Balises inline</a></li>
-                        <li><a href="#formulaire">Balises de formulaire</a></li>
-                        <li><a href="#attributs">Les attributs</a></li>
-                    </ul>
+            <nav>
+                <ul>
+                    <li><a class="col-md-3 col-xs-12" href="#block">Balises block</a></li>
+                    <li><a class="col-md-3 col-xs-12" href="#structurantes">Balises structurantes</a></li>
+                    <li><a class="col-md-3 col-xs-12" href="#liste">Balises liste</a></li>
+                    <li><a class="col-md-3 col-xs-12" href="#inline">Balises inline</a></li>
+                    <li><a class="col-md-3 col-xs-12" href="#formulaire">Balises de formulaire</a></li>
+                    <li><a class="col-md-3 col-xs-12" href="#attributs">Les attributs</a></li>
+                </ul>
                 <!--navbar-->
             </nav>
-            <!--nav du header-->
+            <!--fin nav du header-->
+
         </div>
+
         <section>
             <article class="html">
                 <!--début des définitions-->
@@ -69,7 +78,7 @@
                     <dt>
                         <code>header</code>
                     </dt>
-                    <dd>en-tête de page ou de section. nav indique liste de liens</dd>
+                    <dd>en-tête de page ou de section</dd>
                     <dt>
                         <code>nav</code>
                     </dt>
@@ -187,22 +196,36 @@
                     <dd>permet de regrouper des champs à l'aide de la balise legend</dd>
                 </dl>
                 <h4>Les attributs</h4>
-                    <dl>
-                        <dt><code>id</code></dt>
-                        <dd>permet de donner un identifiant unique à une balise</dd>
-                        <dt><code>class</code></dt>
-                        <dd>à la différence de id, peut apparaître plusieurs fois dans une page</dd>
-                        <dt><code>data-*</code></dt>
-                        <dd>permet de stocker des informations dans le html</dd>
-                        <dt><code>hidden</code></dt>
-                        <dd>permet de masquer un élément</dd>
-                        <dt><code>lang</code></dt>
-                        <dd>sert à indiquer la langue d'une portion de texte</dd>
-                        <dt><code>time</code></dt>
-                        <dd>permet de préciser une date</dd>
-                        <dt><code>target</code></dt>
-                        <dd>permet d'ouvrir les liens dans de nouveaux onglets (target="blank")</dd>
-                    </dl>
+                <dl>
+                    <dt>
+                        <code>id</code>
+                    </dt>
+                    <dd>permet de donner un identifiant unique à une balise</dd>
+                    <dt>
+                        <code>class</code>
+                    </dt>
+                    <dd>à la différence de id, peut apparaître plusieurs fois dans une page</dd>
+                    <dt>
+                        <code>data-*</code>
+                    </dt>
+                    <dd>permet de stocker des informations dans le html</dd>
+                    <dt>
+                        <code>hidden</code>
+                    </dt>
+                    <dd>permet de masquer un élément</dd>
+                    <dt>
+                        <code>lang</code>
+                    </dt>
+                    <dd>sert à indiquer la langue d'une portion de texte</dd>
+                    <dt>
+                        <code>time</code>
+                    </dt>
+                    <dd>permet de préciser une date</dd>
+                    <dt>
+                        <code>target</code>
+                    </dt>
+                    <dd>permet d'ouvrir les liens dans de nouveaux onglets (target="blank")</dd>
+                </dl>
             </article>
         </section>
         <aside class="">
