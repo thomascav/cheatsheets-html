@@ -4,63 +4,214 @@
 <head>
     <meta charset="utf-8">
     <title>CheatSheets HTML/CSS</title>
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/html.css" media="screen" title="no title" charset="utf-8">
 </head>
 
 <body>
-    <header>
-        <h1>Différentes balises de HTML5 et propriétés CSS3 -CheatSheets-</h1>
-    </header>
-    <nav>
-        <ul>
-            <li>
-                <h3>HTML</h3>
-                <ul>
-                    <li><a href="block">Balises block</a></li>
-                    <li><a href="inline">Balises inline</a></li>
-                    <li><a href="structurantes">Balises structurantes</a></li>
-                    <li><a href="formulaire">Balises de formulaire</a></li>
-                    <li><a href="attributs">Les attributs</a></li>
-                </ul>
-            </li>
-
-            <li>
-                <h3>CSS</h3>
-                <ul>
-                    <li><a href="miseenforme">Propriétés de mise en forme du texte</a></li>
-                    <li><a href="couleurfond">Propriétés de couleur et fond</a></li>
-                    <li><a href="boites">Propriétés des boîtes</a></li>
-                    <li><a href="positionnementaffichage">Propriétés de positionnement et d'affichage</a></li>
-                </ul>
-            </li>
-        </ul>
+    <div class="container">
         <header>
-            <article class="">
-
-            </article>
-            <footer>
-
-            </footer>
+            <h1>Différentes balises de HTML5 et propriétés CSS3 -CheatSheets-</h1><!--main title-->
         </header>
-    </nav>
-    <section>
-        <article class="html">
-            <h4 id="block">Balises block</h4>
-            <h4 id="inline">Balises inline</h4>
-            <h4 id="structurantes">balises structurantes</h4>
-            <h4 id="attributs">Les attributs</h4>
-            <h4></h4>
-        </article>
-        <article class="css">
+        <!--header du body-->
+        <div class="row">
+            <nav col-md-12>
+                    <ul>
+                        <li><a href="#block">Balises block</a></li>
+                        <li><a href="#structurantes">Balises structurantes</a></li>
+                        <li><a href="#liste">Balises liste</a></li>
+                        <li><a href="#inline">Balises inline</a></li>
+                        <li><a href="#formulaire">Balises de formulaire</a></li>
+                        <li><a href="#attributs">Les attributs</a></li>
+                    </ul>
+                <!--navbar-->
+            </nav>
+            <!--nav du header-->
+        </div>
+        <section>
+            <article class="html">
+                <!--début des définitions-->
+                <h4 id="block">Balises block</h4>
 
-        </article>
-    </section>
-    <aside class="">
+                <dl>
+                    <dt>
+                        <code>figure</code>
+                    </dt>
+                    <dd>avec figcaption, associer une légende à un média, associé à balise code img, audio, video, code...</dd>
+                    <dt>
+                        <code>blockquote</code>
+                    </dt>
+                    <dd>permet de faire des citations. Peut contenir d'autres blocs (paragraphe)</dd>
+                    <dt>
+                        <code>q</code>
+                    </dt>
+                    <dd>citations sur une ligne</dd>
+                    <dt>
+                        <code>hr</code>
+                    </dt>
+                    <dd>indique un changement thématique s'utilise entre 2 sections</dd>
+                </dl>
 
-    </aside>
-    <footer>
+                <h4 id="structurantes">Balises structurantes</h4>
+                <dl>
+                    <dt>
+                        <code>main</code>
+                    </dt>
+                    <dd>contenu principal d'une page, 1 seul par page, remplace div id="main"|"wrapper"</dd>
+                    <dt>
+                        <code>section</code>
+                    </dt>
+                    <dd>portion ou section générique d'un document, regoupement thématique de contenu (h1)</dd>
+                    <dt>
+                        <code>article</code>
+                    </dt>
+                    <dd>plus précis que section, type spécifique de section (article dans section)</dd>
+                    <dt>
+                        <code>header</code>
+                    </dt>
+                    <dd>en-tête de page ou de section. nav indique liste de liens</dd>
+                    <dt>
+                        <code>nav</code>
+                    </dt>
+                    <dd>indique liste de liens</dd>
+                    <dt>
+                        <code>footer</code>
+                    </dt>
+                    <dd>bas de page (copyright, mentions légales, etc...)</dd>
+                    <dt>
+                        <code>aside</code>
+                    </dt>
+                    <dd>pour contenu venant en complément d'information. Peut être utilisé en affichage de contenu annexe</dd>
+                </dl>
 
-    </footer>
+                <h4 id="liste">balises liste</h4>
+                <dl>
+                    <dt>
+                        <code>ul</code>
+                    </dt>
+                    <dd>liste non ordonnée, li se placent à l'intérieur</dd>
+                    <dt>
+                        <code>ol</code>
+                    </dt>
+                    <dd>liste ordonnée</dd>
+                    <dt>
+                        <code>dt</code>
+                    </dt>
+                    <dd>liste de définitions</dd>
+                </dl>
+                <h4 id="inline">Balises inline</h4>
+                <dl>
+                    <dt>
+                        <code>strong</code>
+                    </dt>
+                    <dd>marque des éléments qui ont une forte importance</dd>
+                    <dt>
+                        <code>b</code>
+                    </dt>
+                    <dd>pour attirer l'attention sur un élément sans sens</dd>
+                    <dt>
+                        <code>em</code>
+                    </dt>
+                    <dd>représente une emphase</dd>
+                    <dt>
+                        <code>i</code>
+                    </dt>
+                    <dd>indique une portion de texte à tonalité différente à celle du texte</dd>
+                    <dt>
+                        <code>cite</code>
+                    </dt>
+                    <dd>balise le nom d'une oeuvre, d'une personne, s'utilise avec blockquote</dd>
+                    <dt>
+                        <code>del</code>
+                    </dt>
+                    <dd>indique qu'un élément a été supprimé</dd>
+                    <dt>
+                        <code>s</code>
+                    </dt>
+                    <dd>représente une portion de texte qui n'est plus à jour</dd>
+                    <dt>
+                        <code>ins</code>
+                    </dt>
+                    <dd>représente un ajout au document</dd>
+                    <dt>
+                        <code>small</code>
+                    </dt>
+                    <dd>indique un élément moins important</dd>
+                    <dt>
+                        <code>var</code>
+                    </dt>
+                    <dd>indique une variable</dd>
+                    <dt>
+                        <code>code</code>
+                    </dt>
+                    <dd>indique qu'une portion de texte est du code</dd>
+                    <dt>
+                        <code>u</code>
+                    </dt>
+                    <dd>sert à mettre en évidences les fautes d'orthographe ou de grammaire</dd>
+                    <dt>
+                        <code>kbd</code>
+                    </dt>
+                    <dd>représente une entrée utilisateur</dd>
+                    <dt>
+                        <code>mark</code>
+                    </dt>
+                    <dd>sert à attirer l'attention sur une portion de texte</dd>
+                    <dt>
+                        <code>dfn</code>
+                    </dt>
+                    <dd>balise un terme qui va être défini</dd>
+                </dl>
 
+                <h4 id="formulaire">Les balises de formulaire</h4>
+                <dl>
+                    <dt>
+                        <code>form</code>
+                    </dt>
+                    <dd>permet de déclarer un formulaire</dd>
+                    <dt>
+                        <code>input</code>
+                    </dt>
+                    <dd>permet d'entrer du texte dans un champs de texte le type peut être texte, number, password, email, tel, url, etc..</dd>
+                    <dt>
+                        <code>datalist</code>
+                    </dt>
+                    <dd>comme input, mais permet d'avoir des suggestions automatiques prédéfinies avec option value</dd>
+                    <dt>
+                        <code>textarea</code>
+                    </dt>
+                    <dd>comme input, mais permet d'entrer plusieurs lignes, la taille peut être définie via les attributs rows et cols</dd>
+                    <dt>
+                        <code>fieldset</code>
+                    </dt>
+                    <dd>permet de regrouper des champs à l'aide de la balise legend</dd>
+                </dl>
+                <h4>Les attributs</h4>
+                    <dl>
+                        <dt><code>id</code></dt>
+                        <dd>permet de donner un identifiant unique à une balise</dd>
+                        <dt><code>class</code></dt>
+                        <dd>à la différence de id, peut apparaître plusieurs fois dans une page</dd>
+                        <dt><code>data-*</code></dt>
+                        <dd>permet de stocker des informations dans le html</dd>
+                        <dt><code>hidden</code></dt>
+                        <dd>permet de masquer un élément</dd>
+                        <dt><code>lang</code></dt>
+                        <dd>sert à indiquer la langue d'une portion de texte</dd>
+                        <dt><code>time</code></dt>
+                        <dd>permet de préciser une date</dd>
+                        <dt><code>target</code></dt>
+                        <dd>permet d'ouvrir les liens dans de nouveaux onglets (target="blank")</dd>
+                    </dl>
+            </article>
+        </section>
+        <aside class="">
+
+        </aside>
+        <footer>
+
+        </footer>
+    </div>
 </body>
 
 </html>

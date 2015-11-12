@@ -67,3 +67,27 @@ u => sert à mettre en évidences les fautes d'orthographe ou de grammaire.
 Les balises de formulaire (de type bloc)
 
 form => permet de déclarer un formulaire
+
+input => permet d'entrer du texte dans un champs de texte  le type peut être texte, number, password, email, tel, url, etc...
+
+datalist => comme input, mais permet d'avoir des suggestions automatiques prédéfinies avec <option value="">
+
+textarea => comme input, mais permet d'entrer plusieurs lignes, la taille peut être définie via les attributs rows et cols.
+
+fieldset => permet de regrouper des champs à l'aide de la balise legend.
+
+Les attributs
+
+id => permet de donner un identifiant unique à une balise.
+
+class => à la différence de id, peut apparaître plusieurs fois dans une page.
+
+data-* => permet de stocker des informations dans le html.
+
+hidden => permet de masquer un élément.
+
+lang => sert à indiquer la langue d'une portion de texte.
+
+time => permet de préciser une date.
+
+target => permet d'ouvrir les liens dans de nouveaux onglets (target="blank")
