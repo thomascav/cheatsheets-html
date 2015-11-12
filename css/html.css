@@ -68,9 +68,7 @@ code {
 dd {
     margin-left: 0.5em;
 }
-/*@media screen and (min-width: 801px) {
-    body {
-        margin-left: 0;
-        margin-right: 0;
-    }
-}*
+footer {
+    font-size: 2.7em;
+    text-decoration: none;
+}
