@@ -24,14 +24,14 @@ ul li {
     list-style: none;
     width: 100%;
     margin-top: 0.2em;
-    margin-bottom: 0.2em;
     padding-top: 0;
 }
 ul li a {
     background-color: #3EFFA3;
     /*border: 0.5px solid grey;*/
     padding-bottom: 4em;
-    margin: 0.7em;
+    margin-right: 0.7em;
+    margin-bottom: 0.7em;
 }
 nav a {
     color: grey;
@@ -44,6 +44,7 @@ nav a {
 nav {
     text-align: center;
     width: 100%;
+    margin-left: 3%;
     padding-top: 5em;
     padding-bottom: 5em;
     margin-bottom: 1em;
