@@ -14,13 +14,14 @@ header {
     margin: 0;
     width: 100%;
 }
-h1 {
+h1 a {
     text-decoration: none;
+    color: #1F73F4;
 }
 section {
     font-size: 3em;
 }
-ul li {
+/*ul li {
     list-style: none;
     width: 100%;
     margin-top: 0.2em;
@@ -28,18 +29,12 @@ ul li {
 }
 ul li a {
     background-color: #3EFFA3;
-    /*border: 0.5px solid grey;*/
     padding-bottom: 4em;
     margin-right: 0.7em;
     margin-bottom: 0.7em;
-}
-nav a {
-    color: grey;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    font-size: 3.2em;
-    padding-top: 4em;
-
+}*/
+.dropdown-menu  {
+    position: relative;
 }
 nav {
     text-align: center;
@@ -72,4 +67,10 @@ dd {
 footer {
     font-size: 2.7em;
     text-decoration: none;
+}
+.glyphicon {
+float: right;
+margin-right: 1em;
+color: black;
+
 }
