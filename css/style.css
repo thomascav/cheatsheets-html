@@ -1,0 +1,85 @@
+/*========================================================================================================
+                    général
+========================================================================================================*/
+* {
+    font-family: 'Comfortaa';
+}
+body {
+    font-size: 62.5%;
+    margin-left: 0;
+    margin-right: 0;
+}
+header {
+    background-color: grey;
+    padding-top: 1em;
+    padding-bottom: 5em;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+h1 a {
+    text-decoration: none;
+    color: #1F73F4;
+}
+section {
+    font-size: 3em;
+}
+/*========================================================================================================
+                    menu dropdown - barre de nav-
+========================================================================================================*/
+.dropdown-menu  {
+    position: relative;
+}
+.btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 4em;
+}
+nav {
+    text-align: center;
+    width: 100%;
+    margin-left: 3%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin-bottom: 1em;
+}
+/*========================================================================================================
+                    titres blocs de définition
+========================================================================================================*/
+h4 {
+    background-color: #4285F4;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 1em;
+}
+/*========================================================================================================
+                    mise en forme blocs
+========================================================================================================*/
+dl {
+    background-color: #B5B5B5;
+
+}
+code {
+    margin-left: 0.5em;
+}
+dd {
+    margin-left: 0.5em;
+}
+.glyphicon {
+float: right;
+margin-right: 1em;
+color: black;
+}
+/*========================================================================================================
+                    footer
+========================================================================================================*/
+footer {
+    font-size: 2.7em;
+    text-decoration: none;
+}
